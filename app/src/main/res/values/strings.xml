@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Kelompok4 ListView</string>
+    <string name="eki">\n
+        Nama : Eki Tri Suenda \n
+        Npm : 1757051003 \n
+        No Hp : 081271515771 \n
+        Alamat : Tulang Bawang
+    </string>
+    <string name="ika">\n
+        Nama : Noverina Ika Tama \n
+        Npm : 1717051005 \n
+        No Hp : 0895395902248 \n
+        Alamat : Pringsewu
+
+    </string>
+    <string name="wulan">\n
+        Nama : Wulan Seftiani \n
+        Npm : 1717051031\n
+        No Hp : 082178292878\n
+        Alamat : Lampung Tengah
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="zzz">
+        nama : eki \n
+        npm :
+    </string>
+
+</resources>

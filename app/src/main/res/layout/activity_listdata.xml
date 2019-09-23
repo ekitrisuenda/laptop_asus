@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".activity_listdata">
+
+    <TextView
+        android:id="@+id/listdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imageView"
+        android:text="asus"
+        android:textColor="#00ccff"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/asus_vivobook_ultra_a412"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp" />
+
+    <TextView
+        android:id="@+id/spesifikasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/listdata"
+        android:text="spesifikasi"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/processor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/spesifikasi"
+        android:text="processor"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/ram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/processor"
+        android:text="ram"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/storage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/ram"
+        android:text="storage"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/os"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/storage"
+        android:text="os"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/harga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/os"
+        android:text="harga"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+
+
+</RelativeLayout>

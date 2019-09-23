@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kayu"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:id="@+id/Judul3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Informasi Kelompok"
+        android:textColor="#339BAD"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/home"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:onClick="home"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/home"
+        tools:ignore="OnClick" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_below="@id/Judul3">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/eki"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/eki"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="40dp"
+                />
+
+            <TextView
+                android:id="@+id/eki2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/eki"
+                android:layout_alignTop="@id/eki"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:text="@string/eki"/>
+
+            <ImageView
+                android:id="@+id/wulan"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/wulan"
+                android:layout_below="@id/eki2"
+                android:layout_marginTop="90dp"
+                android:layout_marginLeft="40dp"
+                />
+
+            <TextView
+                android:id="@+id/wulan2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/wulan"
+                android:textStyle="bold"
+                android:layout_toRightOf="@id/wulan"
+                android:layout_alignTop="@id/wulan"
+                android:layout_marginTop="5dp"
+                android:text="@string/wulan"/>
+
+            <ImageView
+                android:id="@+id/ika"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ika"
+                android:layout_below="@id/wulan2"
+                android:layout_marginTop="90dp"
+                android:layout_marginLeft="40dp"
+                />
+
+            <TextView
+                android:layout_below="@id/ika"
+                android:layout_toRightOf="@id/ika"
+                android:layout_alignTop="@id/ika"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ika"
+                android:textStyle="bold"
+                />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
